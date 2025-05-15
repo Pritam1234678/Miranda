@@ -419,3 +419,178 @@ html, body {
 #page5:hover h1{
     animation-play-state: paused;
 }
+
+/* Media query for tablets and smaller screens (<= 1024px) */
+@media screen and (max-width: 1024px) {
+    #elems {
+        flex-direction: column;
+        height: auto;
+        gap: 40px;
+    }
+
+    #elem1, #elem2, #elem3 {
+        width: 100%;
+        border: none;
+        padding: 20px 0;
+    }
+
+    #elem2 h2 {
+        font-size: 50px;
+    }
+
+    #elem2 h3 {
+        font-size: 30px;
+    }
+
+    #elem2 h6 {
+        font-size: 16px;
+    }
+
+    #page1 h1 {
+        font-size: 200px;
+        line-height: 180px;
+        letter-spacing: -5px;
+    }
+
+    #page2 {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    #page2-left, #page2-right {
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+
+    #page2-left h2 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    #page2-left h2 span {
+        font-size: 100px;
+    }
+
+    #page2-left p {
+        font-size: 22px;
+    }
+
+    #page2-right h1 {
+        font-size: 70px;
+    }
+
+    #page3 h1 {
+        font-size: 200px;
+        line-height: 180px;
+        letter-spacing: -5px;
+    }
+
+    #page3 img {
+        height: 200px;
+        top: 100px;
+    }
+
+    #page4 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #page4-left, #page4-right {
+        width: 100%;
+        padding: 30px;
+    }
+
+    #page4-right p {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    #anda {
+        height: 180px;
+    }
+
+    #anda h1 {
+        font-size: 50px;
+    }
+
+    #anda img {
+        height: 40px;
+    }
+
+    #page5 h1 {
+        font-size: 50px;
+    }
+
+    #page6 {
+        height: 60px;
+    }
+}
+
+/* Mobile screens (<= 768px) */
+@media screen and (max-width: 768px) {
+    #nav {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    #nav h5 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #nav img {
+        width: 50%;
+    }
+
+    #nav i {
+        width: 100%;
+        text-align: center;
+    }
+
+    #page1 h1 {
+        font-size: 120px;
+        line-height: 100px;
+        letter-spacing: -2px;
+    }
+
+    #page2-left h2 {
+        font-size: 50px;
+    }
+
+    #page2-left h2 span {
+        font-size: 70px;
+    }
+
+    #page2-left p, #page4-right p {
+        font-size: 18px;
+    }
+
+    #page3 h1 {
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    #page3 img {
+        height: 100px;
+    }
+
+    #anda {
+        height: 150px;
+    }
+
+    #anda h1 {
+        font-size: 40px;
+    }
+
+    #anda img {
+        height: 30px;
+    }
+
+    #page5 h1 {
+        font-size: 40px;
+    }
+}
